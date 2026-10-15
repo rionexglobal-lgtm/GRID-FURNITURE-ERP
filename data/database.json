@@ -1,0 +1,233 @@
+{
+  "users": {
+    "marashidnk@gmail.com": {
+      "id": "u_marashidnk",
+      "email": "marashidnk@gmail.com",
+      "name": "Super Admin",
+      "role": "admin",
+      "roleId": "admin",
+      "roleName": "Owner",
+      "isOwner": true,
+      "whitelisted": true,
+      "createdAt": 1700000000000
+    },
+    "aarav.sales@gmail.com": {
+      "email": "aarav.sales@gmail.com",
+      "name": "Aarav Sharma",
+      "role": "sales",
+      "roleId": "sales",
+      "whitelisted": true,
+      "createdAt": 1792087345482,
+      "createdBy": "u_marashidnk"
+    },
+    "meera.billing@gmail.com": {
+      "email": "meera.billing@gmail.com",
+      "name": "Meera Nair",
+      "role": "billing",
+      "roleId": "billing",
+      "whitelisted": true,
+      "createdAt": 1792087345492,
+      "createdBy": "u_marashidnk"
+    }
+  },
+  "collections": {
+    "team": {
+      "roles": {
+        "id": "roles",
+        "owner": "u_marashidnk",
+        "roles": {
+          "u_marashidnk": "admin",
+          "u_mv9ujj3b0dxy": "sales",
+          "u_mv9ujj3lz7qi": "billing"
+        },
+        "invites": {},
+        "createdAt": 1700000000000
+      }
+    },
+    "members": {
+      "u_marashidnk": {
+        "id": "u_marashidnk",
+        "email": "marashidnk@gmail.com",
+        "name": "Super Admin",
+        "joinedAt": 1700000000000
+      },
+      "u_mv9ujj3b0dxy": {
+        "id": "u_mv9ujj3b0dxy",
+        "email": "aarav.sales@gmail.com",
+        "name": "Aarav Sharma",
+        "joinedAt": 1792087357799
+      },
+      "u_mv9ujj3lz7qi": {
+        "id": "u_mv9ujj3lz7qi",
+        "email": "meera.billing@gmail.com",
+        "name": "Meera Nair",
+        "joinedAt": 1792087357809
+      }
+    },
+    "settings": {
+      "company": {
+        "id": "company",
+        "name": "GRID Furniture",
+        "currency": "₹",
+        "countryCode": "91",
+        "invoiceNote": "Thank you for shopping with us!",
+        "valuation": "fifo",
+        "warrantyMonths": 12,
+        "createdAt": 1700000000000
+      },
+      "lock": {
+        "id": "lock",
+        "closedUpTo": ""
+      }
+    },
+    "accounts": {
+      "a1000": {
+        "id": "a1000",
+        "code": "1000",
+        "name": "Cash on hand",
+        "type": "asset",
+        "group": "cash",
+        "system": true
+      },
+      "a1010": {
+        "id": "a1010",
+        "code": "1010",
+        "name": "Bank account",
+        "type": "asset",
+        "group": "bank",
+        "system": true
+      },
+      "a1100": {
+        "id": "a1100",
+        "code": "1100",
+        "name": "Accounts receivable",
+        "type": "asset",
+        "group": "receivable",
+        "system": true
+      },
+      "a1200": {
+        "id": "a1200",
+        "code": "1200",
+        "name": "Stock on hand",
+        "type": "asset",
+        "group": "inventory",
+        "system": true
+      },
+      "a2000": {
+        "id": "a2000",
+        "code": "2000",
+        "name": "Accounts payable",
+        "type": "liability",
+        "group": "payable",
+        "system": true
+      },
+      "a3000": {
+        "id": "a3000",
+        "code": "3000",
+        "name": "Owner's equity",
+        "type": "equity",
+        "group": "equity",
+        "system": true
+      },
+      "a4000": {
+        "id": "a4000",
+        "code": "4000",
+        "name": "Sales revenue",
+        "type": "income",
+        "group": "sales",
+        "system": true
+      },
+      "a5000": {
+        "id": "a5000",
+        "code": "5000",
+        "name": "Cost of goods sold",
+        "type": "expense",
+        "group": "cogs",
+        "system": true
+      },
+      "a6000": {
+        "id": "a6000",
+        "code": "6000",
+        "name": "Salaries & wages",
+        "type": "expense",
+        "group": "payroll",
+        "system": true
+      },
+      "a6100": {
+        "id": "a6100",
+        "code": "6100",
+        "name": "Rent & utilities",
+        "type": "expense",
+        "group": "operating",
+        "system": true
+      },
+      "a6200": {
+        "id": "a6200",
+        "code": "6200",
+        "name": "Delivery & transport",
+        "type": "expense",
+        "group": "operating",
+        "system": true
+      },
+      "a6900": {
+        "id": "a6900",
+        "code": "6900",
+        "name": "Other expenses",
+        "type": "expense",
+        "group": "operating",
+        "system": true
+      },
+      "a2110": {
+        "id": "a2110",
+        "code": "2110",
+        "name": "Output CGST",
+        "type": "liability",
+        "group": "tax",
+        "system": true
+      },
+      "a2120": {
+        "id": "a2120",
+        "code": "2120",
+        "name": "Output SGST",
+        "type": "liability",
+        "group": "tax",
+        "system": true
+      },
+      "a2130": {
+        "id": "a2130",
+        "code": "2130",
+        "name": "Output IGST",
+        "type": "liability",
+        "group": "tax",
+        "system": true
+      },
+      "a1310": {
+        "id": "a1310",
+        "code": "1310",
+        "name": "Input CGST",
+        "type": "asset",
+        "group": "taxIn",
+        "system": true
+      },
+      "a1320": {
+        "id": "a1320",
+        "code": "1320",
+        "name": "Input SGST",
+        "type": "asset",
+        "group": "taxIn",
+        "system": true
+      },
+      "a1330": {
+        "id": "a1330",
+        "code": "1330",
+        "name": "Input IGST",
+        "type": "asset",
+        "group": "taxIn",
+        "system": true
+      }
+    }
+  },
+  "counters": {
+    "invoices": 2
+  }
+}
